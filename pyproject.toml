@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "swarm-as-mcp"
+version = "1.0.0"
+description = "Universal Multi-Agent Swarm Exposer for Cursor, Windsurf, and Claude Code"
+authors = [{ name = "AAH20", email = "research@aah20.dev" }]
+license = { text = "Apache-2.0" }
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+swarm-as-mcp = "swarm_as_mcp.cli:main"
